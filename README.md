@@ -1,7 +1,7 @@
 # terraform-aws
-Desafio - Machine Learning Plataform Engineer
 
-## **Objetivo**:
+
+### **Objetivo**:
   Implementar uma arquitetura completa que consome a [Punk Api](https://punkapi.com/) no endpoint https://api.punkapi.com/v2/beers/random e ingere em um ​ Kinesis
 Stream​ que terá 2 consumidores. Configurando:
   1. Um ​ CloudWatch Event que dispara a cada 5 minutos uma função ​ Lambda para alimentar o ​ Kinesis Stream​ que terá como saída:
@@ -16,7 +16,7 @@ Stream​ que terá 2 consumidores. Configurando:
   ![Screenshot from 2021-03-28 23-12-07](https://user-images.githubusercontent.com/59203291/112778535-24273c80-901b-11eb-93b4-58307822b71c.png)
 
 
-## **Requisitos**:
+### **Requisitos**:
   * Criar uma conta aws gratuita
   * Instalar o Terraform
   * Definir em terraform-aws/Terraform-aws/main.tf as variáveis:
@@ -27,7 +27,7 @@ Stream​ que terá 2 consumidores. Configurando:
        
        access_key = "YOUR AWS ACCESS KEY ID"
        
-## **Para iniciar:**
+### **Para iniciar:**
 ``` sh
 cd terraform-aws/Terraform-aws/
 terraform plan
@@ -35,13 +35,13 @@ terraform apply
 
 ```   
 
-## **Para finalizar:**
+### **Para finalizar:**
 ``` sh
 terraform destroy
 
 ```  
 
-## **Referências:**
+### **Referências:**
 * https://www.youtube.com/watch?v=JUZPfds0gDg
 * https://docs.aws.amazon.com/pt_br/
 * https://d1.awsstatic.com/whitepapers/pt_BR/whitepaper-streaming-data-solutions-on-aws-with-amazon-kinesis.pdf
