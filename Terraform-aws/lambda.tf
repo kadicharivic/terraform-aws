@@ -1,6 +1,6 @@
 resource "aws_cloudwatch_event_rule" "cloudwatch_event" {
   name = "cloudwatch"
-  schedule_expression = "rate(2 minutes)"
+  schedule_expression = "rate(5 minutes)"
 }
 
 resource "aws_cloudwatch_event_target" "cloudwatch_target" {
