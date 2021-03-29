@@ -48,3 +48,8 @@ terraform destroy
 * https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/kinesis.html#Kinesis.Client.put_record
 * https://docs.aws.amazon.com/pt_br/pinpoint/latest/developerguide/pinpoint-dg.pdf
 * https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+* https://registry.terraform.io/browse?provider=aws
+* https://serverless.com/examples/aws-java-simple-http-endpoint/
+* https://www.youtube.com/watch?v=wgzgVm7Sqlk
+* https://www.youtube.com/watch?v=5WykrpB7qS4
+* https://www.youtube.com/watch?v=7mBo6pT09RM
