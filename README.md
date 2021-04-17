@@ -10,7 +10,7 @@ Stream​ que terá 2 consumidores. Configurando:
 
       Outro ​ Firehose com um ​ Data Transformation que pega somente os ​ id​ , name​ , ​ abv​ , ​ ibu​ , ​ target_fg​ , ​ target_og​ , ​ ebc​ , ​ srm e ​ ph das cervejas e guarda em um outro bucket S3 com o nome de ​ cleaned​ em formato ​ csv​ .
 
-  2. Criando uam tabela com os dados do bucket cleaned-desafio-picpay
+  2. Criando uma tabela com os dados do bucket cleaned-desafio-picpay
   3. Com base nos dados da tabela ​ cleaned, treine um modelo de machine learning que classifique as cervejas em seus respectivos ibus.
 
   ![Screenshot from 2021-03-28 23-12-07](https://user-images.githubusercontent.com/59203291/112778535-24273c80-901b-11eb-93b4-58307822b71c.png)
